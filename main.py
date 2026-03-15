@@ -1,9 +1,5 @@
 """..."""
-import os
 import yt_dlp
-
-os.makedirs("mp3", exist_ok=True)
-os.makedirs("mp4", exist_ok=True)
 
 FFMPEG = r"C:\ProgramData\chocolatey\lib\ffmpeg\tools\ffmpeg\bin"
 # FFmpeg PATH’e ekliyse -> FFMPEG = 'ffmpeg'
